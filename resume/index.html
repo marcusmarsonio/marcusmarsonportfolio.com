@@ -1,104 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeff's Website</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <div class="image">
+                        <img src="/avatar.jpg" alt="">
+                    </div>
+                    <h2 class="name">Marcus Marson</h2>
+                    <p class="career">Software Engineer</p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="main-title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-fax"></i>
+                            marcusmarson24@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            www.marcusmarsonportfolio.com
+                        </li>
+                        
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            United states
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section">
+                    <h3 class="main-title">Skills</h3>
+                    <ul>
+                        <li>
+                            <p class="skill-title">Javascript</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Python</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Java</p>
+                            <div class="progress-bar">
+                                <div class="progress j-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">html/css</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Solidity</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">ux/ui design</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="references-section">
+                    <h3 class="main-title">References</h3>
+                    <div class="referee">
+                        <h6 class="sub-title">Wasim Rana</h6>
+                        <p class="sub-para">District Manager</p>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                201-362-9599
+                            </li>
+                            <li>
+                                <i class="fa fa-fax"></i>
+                                ranawasim2@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="referee">
+                        <h6 class="sub-title">sam park</h6>
+                        <p class="sub-para">Engineer</p>
+                        <ul>
+                            
+                            <li>
+                                <i class="fa fa-fax"></i>
+                                samuelpark@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about sect">
+                    <h2 class="right-title">About Me</h2>
+                    <p class="para">
+                        Hello! My name is Marcus and i am from North Jersey. Presently, i am a full-time student at 
+                        Montclair State University where I am studying Computer Science. In addition, to woking on side
+                        projects and full-time employee at T-mobile and within a couple of years imporving from Mobile expert 
+                        to store manager. <br><br> 
+                        Collaborate with devleopment and project management with offshore teams in multiply time zones on Git.
+                        Providing excellent services to customers in a dynamic work environment. 
+                        Great communication skills, good interpersonal skills and fast in 
+                        resolving problems and complex situations with excellent problem-solving skills.
+                    </p>
+                </section>
 
-    <canvas id="bg"></canvas>   
+                <section class="experince sect">
+                    <h2 class="right-title">Experience</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Software Quality Assurance and Testing</h5>
+                            <p class="para">2021 - Present</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Manual Quality Assurance</h5>
+                                <ul>
+                                    <li>Understaning the employers use of product or service and test User interface experiences using Jira and TestRail. <br></br></li>
+                                    <li>Testing web and mobile(IOS and Andriod) applications. <br></br></li>
+                                    <li>Preforming Black-box,smoke,functional,UI and regression testing.<br></br></li>
+                                    <li>Compatibality testing on a varity of platforms and devices. <br></br></li>
+                                    <li>Participating in daily stand-ups and sprint planning and willingness to work alongside peers and leaders.<br></br></li>
 
-    <main>
-
-      <header>
-        <h1>Jeff Delaney</h1>
-        <p>🚀 Welcome to my website!</p>
-      </header>
-
-
-      <blockquote>
-        <p>I like making stuff and putting it on the internet</p>
-      </blockquote>
-
-      <section>
-        <h2>📜 Manifesto</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-      </section>
-
-      <section class="light">
-        <h2>👩🏽‍🚀 Projects</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <h2>🏆 Accomplishments</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-      </section>
-
-      <blockquote>
-        <p>The best way out is always through <br>-Robert Frost</p>
-      </blockquote>
-
-      <section class="left">
-        <h2>🌮 Work History</h2>
-
-        <h3>McDonalds</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h3>Burger King</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h3>Taco Bell</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-      </section>
-
-      <blockquote>
-        <p>Thanks for watching!</p>
-      </blockquote>
-
-
+                                    <li><strong>Database:</strong> MySQL</li>
+                                    <li><strong>Api Testing:</strong> Postman, REST API,Charles Proxy</li>
+                                    <li><strong>Bug tracking:</strong> Jira,TestRail</li>
+                                    <li><strong>Web Testing:</strong> Chrome Dev tools</li>
+                                    <li><strong>Platforms:</strong> Mac OS X, Windows,IOS,Android OS,Linux</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">T-mobile manager</h5>
+                            <p class="para">2019 - present</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Front-end/Back-end Manager</h5>
+                                <ul>
+                                    <li>Stay current on all technology, products, services, and promotions.<br></br></li>                                   
+                                    <li>Stay up to date with business making sure conversions and upsells are happening throughout the day of business.<br></br></li>
+                                    <li>Develop entry level employees to top selling mobile experts by providing my own method to build a successful store.<br></br></li>
+                                    <li>Work on marketing and branding ideas to bring more customers in and convert that traffic into conversions.<br></br></li>
+                                    <li>Explain the service with price to new customer including any financements or down payments.<br></br></li>
+                                    <li>Support team initiatives and create an inclusive environment and community.<br></br></li>
+                                    <li>Making sure merchandise and store planogram is complete.<br></br></li>
+                                    <li>Receive and ship inventory, also making sure the store always presented at its best.<br></br></li>
+                                    <li>Using sales and marketing to convert sales and expand user in-store experiences.<br></br></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">T-mobile</h5>
+                            <p class="para">2017 - 2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Mobile Expert</h5>
+                                <ul>
+                                    <li>Exploring individual needs and providing hands-on demonstrations of the latest and greatest technology in-store. <br></br></li>
+                                    <li>Approaching service and sales needs with composure, integrity and compassion.<br></br></li>
+                                    <li>Helping customers pick up right where they left off in their shopping journey, whether online, through Customer Care or in-store.<br></br></li>
+                                    <li>Effective at balancing customer needs and performance goals.<br></br></li>
+                                    <li>Willingness to work alongside peers and store leaders, learning and sharing ideas, while serving customers and providing resolutions to issues.<br></br></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="education sect">
+                    <h2 class="right-title">education</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Montclair State University</h5>
+                            <p class="para">2020-present</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Computer Science</h5>
+                                <p class="para">
+                                    Staying up to date with current technology and trends.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Bergen Community College </h5>
+                            <p class="para">2018 - 2020</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Computer Science</h5>
+                                <p class="para">
+                                    Understanidng the basics of computer programming and development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="awards sect">
+                    <h2 class="right-title">Hobbies</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Learning</h5>
+                            <p class="para">June 2022</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">proof of Work</h5>
+                                <p class="para">
+                                    Technology is always innovating and 
+                                    changes freqently throughout the year 
+                                    staying up today is not only a must but an necessity. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Growth</h5>
+                            <p class="para">June 2021 </p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Prioritizing</h5>
+                                <p class="para">
+                                    prioritizing knowledge and growth to make an impact
+                                    in any space.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
     </main>
-    
-    <script type="module" src="/main.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
+</body>
 </html>
